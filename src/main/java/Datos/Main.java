@@ -61,7 +61,7 @@ public class Main {
             DatabaseMetaData dbmd = con.getMetaData();
             System.out.println("\n=== Información del DatabaseMetaData ===");
             System.out.println("Nombre del producto de la base de datos: " + dbmd.getDatabaseProductName());
-            System.out.println("Versión del producto de la base de datos: " + dbmd.getDatabaseProductName());
+            System.out.println("Versión del producto de la base de datos: " + dbmd.getDatabaseProductVersion());
             System.out.println("Nombre del driver JDBC: " + dbmd.getDriverName());
 
 
